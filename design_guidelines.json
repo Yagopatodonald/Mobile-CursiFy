@@ -1,0 +1,175 @@
+{
+  "identity": {
+    "persona": "E1: The Anti-AI Designer",
+    "principles": [
+      "Fusion over Imitation: Mix education with lifestyle aesthetics.",
+      "Emotion First: Learning should feel encouraging, not bureaucratic.",
+      "Content is King: Course thumbnails and instructor faces are the heroes.",
+      "Zoom In: Big, bold typography and generous whitespace.",
+      "Negative Space: Don't clutter the small screen. Let content breathe."
+    ],
+    "anti_patterns": [
+      "No gradients on text (readability first).",
+      "No 100% width buttons without padding.",
+      "No generic 'Blue' (#0000FF). Use 'Indigo' or 'Violet'.",
+      "No center-aligned long text."
+    ]
+  },
+  "visual_language": {
+    "theme": "Light Mode (Swiss Minimalist)",
+    "colors": {
+      "primary": "#4F46E5",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#10B981",
+      "secondary_foreground": "#FFFFFF",
+      "background": "#FFFFFF",
+      "surface": "#F9FAFB",
+      "surface_highlight": "#F3F4F6",
+      "text_main": "#111827",
+      "text_muted": "#6B7280",
+      "border": "#E5E7EB",
+      "error": "#EF4444",
+      "success": "#10B981",
+      "warning": "#F59E0B"
+    },
+    "typography": {
+      "font_family_heading": "Outfit",
+      "font_family_body": "Inter",
+      "weights": {
+        "regular": "400",
+        "medium": "500",
+        "semibold": "600",
+        "bold": "700",
+        "black": "900"
+      },
+      "sizes": {
+        "xs": 12,
+        "sm": 14,
+        "base": 16,
+        "lg": 18,
+        "xl": 20,
+        "2xl": 24,
+        "3xl": 30,
+        "4xl": 36
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "s": 8,
+      "m": 16,
+      "l": 24,
+      "xl": 32,
+      "xxl": 48
+    },
+    "border_radius": {
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "full": 9999
+    },
+    "shadows": {
+      "sm": "0px 1px 2px rgba(0, 0, 0, 0.05)",
+      "md": "0px 4px 6px -1px rgba(0, 0, 0, 0.1)",
+      "lg": "0px 10px 15px -3px rgba(0, 0, 0, 0.1)"
+    }
+  },
+  "components": {
+    "Button": {
+      "base": "h-12 rounded-full flex-row items-center justify-center px-6",
+      "variants": {
+        "primary": "bg-[#4F46E5]",
+        "secondary": "bg-[#F3F4F6]",
+        "outline": "bg-transparent border border-[#E5E7EB]"
+      },
+      "text": {
+        "primary": "text-white font-semibold text-base",
+        "secondary": "text-[#111827] font-medium text-base",
+        "outline": "text-[#111827] font-medium text-base"
+      }
+    },
+    "Card": {
+      "base": "bg-white rounded-2xl p-4 shadow-sm border border-[#F3F4F6]",
+      "interactive": "active:scale-98 transition-transform"
+    },
+    "Input": {
+      "base": "h-12 bg-[#F9FAFB] border border-[#E5E7EB] rounded-xl px-4 text-[#111827] text-base mb-4 focus:border-[#4F46E5]"
+    },
+    "Badge": {
+      "base": "px-3 py-1 rounded-full self-start",
+      "variants": {
+        "success": "bg-[#ECFDF5] text-[#047857]",
+        "warning": "bg-[#FFFBEB] text-[#B45309]",
+        "primary": "bg-[#EEF2FF] text-[#4F46E5]"
+      }
+    }
+  },
+  "layout_strategies": {
+    "mobile_bento": {
+      "description": "Vertical stack of distinct cards. Use varied heights to create rhythm.",
+      "gap": 16,
+      "padding": 20
+    },
+    "navigation": {
+      "type": "Bottom Tab Bar",
+      "style": "Clean, label-less active state or small labels. Active color: Primary."
+    }
+  },
+  "image_assets": {
+    "course_thumbnails": [
+      {
+        "url": "https://images.unsplash.com/photo-1607971422532-73f9d45d7a47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxjb2RpbmclMjBsYXB0b3AlMjBjb2RlJTIwc2NyZWVufGVufDB8fHx8MTc3Mzg0NzI2Nnww&ixlib=rb-4.1.0&q=85",
+        "category": "Coding / Development",
+        "alt": "Laptop showing code"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758691736483-5f600b509962?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMG1lZXRpbmclMjBkYXRhJTIwZ3JhcGhzfGVufDB8fHx8MTc3Mzg0NzI2N3ww&ixlib=rb-4.1.0&q=85",
+        "category": "Business / Data",
+        "alt": "Man presenting charts"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1723055931803-7826fbfd68b6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHw0fHxncmFwaGljJTIwZGVzaWduJTIwYWJzdHJhY3QlMjBjb2xvcmZ1bHxlbnwwfHx8fDE3NzM4NDcyNjd8MA&ixlib=rb-4.1.0&q=85",
+        "category": "Design / Art",
+        "alt": "Abstract colorful floral pattern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1540122867794-3c8b7e3a22c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHw0fHxtYXJrZXRpbmclMjBzb2NpYWwlMjBtZWRpYSUyMHBob25lfGVufDB8fHx8MTc3Mzg0NzI2OHww&ixlib=rb-4.1.0&q=85",
+        "category": "Marketing",
+        "alt": "Person browsing phone"
+      }
+    ],
+    "avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1750187655549-b5009f762677?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzczODQ3MjY5fDA&ixlib=rb-4.1.0&q=85",
+        "category": "Instructor",
+        "alt": "Smiling woman instructor"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33871730/pexels-photo-33871730.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "Instructor",
+        "alt": "Professional business woman"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1598870783716-1c5f0f890aa4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwyfHxzdHVkZW50JTIwcGhvbmV8ZW58MHx8fHwxNzczODQ3Mjc3fDA&ixlib=rb-4.1.0&q=85",
+        "category": "Student",
+        "alt": "Student holding phone"
+      }
+    ]
+  },
+  "tech_instructions": {
+    "framework": "React Native (Expo)",
+    "styling": "StyleSheet or NativeWind (Preferred if available). If using StyleSheet, create a 'constants/theme.ts' file with the defined colors and spacing.",
+    "icons": "Use @expo/vector-icons (Feather or Ionicons preferred for minimalism).",
+    "navigation": "Expo Router (Stack and Tabs).",
+    "fonts": "Use @expo-google-fonts/outfit and @expo-google-fonts/inter if possible. Fallback to System Sans-Serif.",
+    "accessibility": "All touchables must have accessibilityLabel and accessibilityRole."
+  },
+  "universal_guidelines": [
+    "Always wrap screen content in SafeAreaView (from react-native-safe-area-context).",
+    "Use KeyboardAvoidingView for forms.",
+    "Use FlatList for lists, never Map inside ScrollView for large datasets.",
+    "Add 'data-testid' to all interactive elements for testing.",
+    "Ensure touch targets are at least 44x44 points.",
+    "Do NOT use transparent backgrounds for headers if content scrolls under them without a blur view.",
+    "Feedback: Show loading indicators for all async actions."
+  ]
+}
